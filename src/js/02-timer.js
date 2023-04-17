@@ -10,6 +10,7 @@ const varMinutes = document.querySelector('[data-minutes]');
 const varSeconds = document.querySelector('[data-seconds]');
 
 const btnStart = document.querySelector('[data-start]');
+btnStart.disabled = true;
 
 btnStart.addEventListener('click', checkDataFunction);
 
